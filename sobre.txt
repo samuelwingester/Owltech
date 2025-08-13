@@ -17,7 +17,4 @@ CORES:
 - #2F4D77
 - #313131
 
-TAMANHOS:
-- media_1 - computador - (1000 > x)
-- media_2 - computador - (450 < 1000)
-- media_3 -  celular   - (x < 450)
+haha
