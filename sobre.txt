@@ -1,0 +1,23 @@
+NOME: OWLTECHS
+
+PRODUTOS:
+- Celulares
+- Notebooks
+- Tablets
+- Smartwatches
+
+FONTE:
+- https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap
+- MONTSERRAT
+
+CORES:
+- #D6B980
+- #B38D53
+- #1B2B40
+- #2F4D77
+- #313131
+
+TAMANHOS:
+- media_1 - computador - (1000 > x)
+- media_2 - computador - (450 < 1000)
+- media_3 -  celular   - (x < 450)
