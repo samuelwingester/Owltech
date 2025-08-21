@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWLTECHS</title>
+    <link rel="shortcut icon" href="style\logo\logo_box_blue.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/icons.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <script src="script\script.js" defer></script>
+</head>
+
+<body>
+    <div id="menu">
+        <div id="menu-top">
+            <a href="index.html"><img src="style\logo\logo_box_blue.png"></a>
+            <button type="button" onclick="HideMenu()"><span
+                    class="material-symbols-outlined icon-gray icon-close">close</span></button>
+        </div>
+        <div id="menu-content">
+            <ul>
+                <li class="menu-topics">
+                    <span class="material-symbols-outlined icon-gray-I icons-menu">account_circle</span>
+                    <h2>conta</h2>
+                </li>
+                <li class="menu-links">
+                    <a href="login.html">
+                        Logar/Cadastrar<span
+                            class="material-symbols-outlined icon-gray icon-arrow-menu">arrow_forward_ios</span>
+                    </a>
+                </li>
+                <li class="menu-links">
+                    <a href="carrinho.html">
+                        Carrinho<span
+                            class="material-symbols-outlined icon-gray icon-arrow-menu">arrow_forward_ios</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-topics">
+                    <span class="material-symbols-outlined icon-gray-I icons-menu">trolley</span>
+                    <h2>produtos</h2>
+                </li>
+                <li id="menu-search-button">
+                    <a href="produtos.html">
+                        <span class="material-symbols-outlined icon-gray icon-search-menu">search</span>
+                        pesquisar
+                    </a>
+                </li>
+                <li class="menu-links">
+                    <a href="produtos.html">
+                        Todos<span class="material-symbols-outlined icon-gray icon-arrow-menu">arrow_forward_ios</span>
+                    </a>
+                </li>
+                <li class="menu-links">
+                    <a href="produtos.html?type=1">
+                        Notebooks<span
+                            class="material-symbols-outlined icon-gray icon-arrow-menu">arrow_forward_ios</span>
+                    </a>
+                </li>
+                <li class="menu-links">
+                    <a href="produtos.html?type=2">
+                        Celulares<span
+                            class="material-symbols-outlined icon-gray icon-arrow-menu">arrow_forward_ios</span>
+                    </a>
+                </li>
+                <li class="menu-links">
+                    <a href="produtos.html?type=3">
+                        tablets<span
+                            class="material-symbols-outlined icon-gray icon-arrow-menu">arrow_forward_ios</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-topics">
+                    <img src="style\logo\logo_box_white.png" alt="logo_box_white" id="logo-menu-white">
+                    <h2>sobre-nos</h2>
+                </li>
+                <li class="menu-links">
+                    <a href="quem-somos.html">
+                        Quem-Somos<span
+                            class="material-symbols-outlined icon-gray icon-arrow-menu">arrow_forward_ios</span>
+                    </a>
+                </li>
+                <li class="menu-links">
+                    <a href="contact.html">
+                        Contate-nos<span
+                            class="material-symbols-outlined icon-gray icon-arrow-menu">arrow_forward_ios</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div id="header-top">
+            <div class="left">
+                <button type="button" onclick="ShowMenu()"><span
+                        class="material-symbols-outlined icon-orange icon-menu">menu</span></button>
+                <a href="index.html"><img src="style\logo\logo-blue.png" alt="OWLTECHS" id="logo-header"></a>
+            </div>
+            <div class="right">
+                <a href="produtos.html">
+                    <div id="pesquisar">
+                        <span class="material-symbols-outlined icon-gray icon-search">search</span>
+                        <p>Pesquisar</p>
+                    </div>
+                </a>
+                <a href="login.html"><span
+                        class="material-symbols-outlined icon-orange icon-account-header">account_circle</span></a>
+                <a href="carrinho.html">
+                    <span class="material-symbols-outlined icon-orange icon-cart">shopping_cart</span>
+                </a>
+            </div>
+        </div>
+        <div id="header-bottom">
+            <ul id="header-list">
+                <li><a href="produtos.html">Todos</a></li>
+                <li><a href="produtos.html?type=1">Notebooks</a></li>
+                <li><a href="produtos.html?type=2">Celulares</a></li>
+                <li><a href="produtos.html?type=3">Tablets</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+    <div id="quem">
+        <div class="left">
+            <div class="quem-container">
+                <h2 class="quem-title" id="quem-title-1">Quem-Somos</h2>
+                <p class="quem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nulla non
+                    blandit tempor. Proin ipsum sapien, pretium et ante et, finibus imperdiet augue. Donec ullamcorper
+                    dictum ligula eget cursus. Praesent nec leo at lectus maximus ornare in pretium dolor. In id lectus
+                    vel purus fermentum interdum. Aenean erat nulla, vulputate in malesuada eget, volutpat sed dolor.
+                </p>
+                <img src="" class="quem-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="quem-container">
+                <img src="" class="quem-img">
+                <h2 class="quem-title" id="quem-title-2">O Que Vendemos</h2>
+                <p class="quem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nulla non
+                    blandit tempor. Proin ipsum sapien, pretium et ante et, finibus imperdiet augue. Donec ullamcorper
+                    dictum ligula eget cursus. Praesent nec leo at lectus maximus ornare in pretium dolor. In id lectus
+                    vel purus fermentum interdum. Aenean erat nulla, vulputate in malesuada eget, volutpat sed dolor.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div id="footer-container">
+            <div>
+                <img src="style\logo\logo-blue.png" alt="" id="logo-footer">
+            </div>
+            <div class="right">
+                <ul class="footer-links">
+                    <li class="footer-topic">conta</li>
+                    <li>
+                        <a href="login.html">
+                            Logar/Cadastrar<span
+                                class="material-symbols-outlined icon-white icon-arrow-footer">arrow_forward_ios</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="carrinho.html">
+                            Carrinho<span
+                                class="material-symbols-outlined icon-white icon-arrow-footer">arrow_forward_ios</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-links">
+                    <li class="footer-topic">sobre-nos</li>
+                    <li>
+                        <a href="quem-somos.html">
+                            Quem-Somos<span
+                                class="material-symbols-outlined icon-white icon-arrow-footer">arrow_forward_ios</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contate-nos<span
+                                class="material-symbols-outlined icon-white icon-arrow-footer">arrow_forward_ios</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

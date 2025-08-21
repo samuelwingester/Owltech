@@ -1,0 +1,98 @@
+/*---------------CORES---------------*/
+
+.icon-orange{color: var(--dark-orange);}
+.icon-gray{color: var(--gray);}
+.icon-white{color: white;}
+.icon-blue{color: var(--light-blue);}
+
+.icon-gray-I{color: var(--gray) !important;}
+
+.icon-orange:hover{color: var(--light-orange);}
+.icon-gray:hover{color: var(--light-blue);}
+.icon-blue:hover{color: var(--light-orange);}
+
+/*---------------CORES---------------*/
+
+
+/*---------------ICONES--------------*/
+
+.material-symbols-outlined{transition: 0.5s;}
+
+/*header*/
+.icon-menu{font-size: 50px;}
+.icon-search{font-size: 20px;}
+.icon-account-header{font-size: 40px;}
+.icon-cart{font-size: 40px;}
+/*header*/
+
+/*menu*/
+.icon-close{font-size: 50px;}
+.icons-menu{font-size: 25px;}
+.icon-arrow-menu{font-size: 25px;}
+.icon-search-menu{font-size: 20px;margin-right: 5px;}
+/*menu*/
+
+.icon-arrow-footer{font-size: 24px;}
+
+/*contact*/
+.icon-contact{font-size: 40px;}
+/*contact*/
+
+/*produtos*/
+.icon-add{font-size: 24px;}
+.icon-star{font-size: 22px;}
+/*produtos*/
+
+/*main*/
+.icon-seta{font-size: 22px; margin-left: 4px;}
+/*main*/
+
+/*---------------ICONES--------------*/
+
+/*---------------1000px-------------*/
+@media (max-width: 1100px) {
+    /*produtos*/
+    .icon-add{font-size: 14px;}
+    .icon-star{font-size: 12px;}
+    /*produtos*/
+}
+/*---------------1000px-------------*/
+
+
+
+/*---------------550px--------------*/
+@media (max-width: 550px) {
+    /*header*/
+    .icon-menu{font-size: 30px;}
+    .icon-search{font-size: 15px;}
+    .icon-account-header{font-size: 25px;}
+    .icon-cart{font-size: 25px;}
+    /*header*/
+
+    /*footer*/
+    .icon-arrow-footer{font-size: 16px;}
+    /*footer*/
+
+    /*menu*/
+    .icon-close{font-size: 40px;}
+    .icons-menu{font-size: 20px;}
+    .icon-arrow-menu{font-size: 15px;}
+    .icon-search-menu{font-size: 14px;margin-right: 5px;}
+    /*menu*/
+}
+/*---------------550px--------------*/
+
+/*---------------300px--------------*/
+
+@media (max-width: 300px) {
+    /*header*/
+    .icon-menu{font-size: 20px;}
+    .icon-search{font-size: 12px;}
+    .icon-account-header{font-size: 15px;}
+    .icon-cart{font-size: 15px;}
+    /*header*/
+
+    
+}
+
+/*---------------300px--------------*/
